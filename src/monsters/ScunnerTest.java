@@ -2,6 +2,7 @@ package monsters;
 
 import org.junit.Before;
 import org.junit.Test;
+import vehicles.Tank;
 
 import static org.junit.Assert.assertEquals;
 
@@ -34,5 +35,11 @@ public class ScunnerTest {
     assertEquals("Roar! I am a Scunner.", monster.roar());
   }
 
+  @Test
+  public void monsterCanAttackVehicle() {
+    Tank tank = new Tank("tank", 100);
 
+    monster.attack(tank);
+    assertEquals(50, tank.getHealthValue());
+  }
 }
