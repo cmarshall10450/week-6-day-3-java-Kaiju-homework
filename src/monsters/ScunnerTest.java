@@ -37,7 +37,7 @@ public class ScunnerTest {
 
   @Test
   public void monsterCanAttackVehicle() {
-    Tank tank = new Tank("tank", 100);
+    Tank tank = new Tank("tank", 100, 50);
 
     scunner.attack(tank);
     assertEquals(50, tank.getHealthValue());
@@ -52,5 +52,12 @@ public class ScunnerTest {
   public void monsterCanMove() {
     Godzilla godzilla = new Godzilla("Godzilla", 300, 3000);
     assertEquals("I can move", godzilla.move());
+  }
+
+  @Test
+  public void monsterCanReduceHealth() {
+    scunner.reduceHealth(50);
+
+    assertEquals(50, scunner.getHealthValue());
   }
 }

@@ -31,4 +31,8 @@ public abstract class Kaiju {
   public int getAttackValue() {
     return attackValue;
   }
+
+  public void reduceHealth(int amount) {
+    this.healthValue -= amount;
+  }
 }

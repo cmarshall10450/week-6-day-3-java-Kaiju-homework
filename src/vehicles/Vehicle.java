@@ -1,5 +1,7 @@
 package vehicles;
 
+import monsters.Kaiju;
+
 /**
  * Created by chris on 01/11/2017.
  */
@@ -7,8 +9,9 @@ public abstract class Vehicle {
 
   String type;
   int healthValue;
+  int attackValue;
 
-  public Vehicle(String type, int healthValue) {
+  public Vehicle(String type, int healthValue, int attackValue) {
     this.type = type;
     this.healthValue = healthValue;
   }
@@ -23,5 +26,9 @@ public abstract class Vehicle {
 
   public void reduceHealth(int amount) {
     this.healthValue -= amount;
+  }
+
+  public void attack(Kaiju kaiju) {
+    kaiju.reduceHealth(this.attackValue);
   }
 }

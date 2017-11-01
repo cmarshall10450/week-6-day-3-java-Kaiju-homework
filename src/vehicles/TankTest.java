@@ -14,7 +14,7 @@ public class TankTest {
 
   @Before
   public void before() {
-    tank = new Tank("Tank", 100);
+    tank = new Tank("Tank", 100, 10);
   }
 
   @Test
