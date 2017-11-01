@@ -5,9 +5,6 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-/**
- * Created by chris on 01/11/2017.
- */
 public class ScunnerTest {
 
   Scunner monster;
@@ -21,5 +18,12 @@ public class ScunnerTest {
   public void monsterHasName() {
     assertEquals("Godzilla", monster.getName());
   }
+
+  @Test
+  public void monsterHasHealthValue() {
+    assertEquals(100, monster.getHealthValue());
+  }
+
+
 
 }
