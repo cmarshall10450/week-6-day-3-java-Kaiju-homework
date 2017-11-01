@@ -13,13 +13,18 @@ public class TankTest {
   Tank tank;
 
   @Before
-  public void before(){
+  public void before() {
     tank = new Tank("Tank", 100);
   }
 
   @Test
-  public void tankHasType(){
+  public void tankHasType() {
     assertEquals("tank", tank.getType());
+  }
+
+  @Test
+  public void tankHasHealthValue() {
+    assertEquals(100, tank.getHealthValue());
   }
 
 }
