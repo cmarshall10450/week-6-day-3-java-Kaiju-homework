@@ -24,6 +24,10 @@ public class ScunnerTest {
     assertEquals(100, monster.getHealthValue());
   }
 
+  @Test
+  public void monsterHasAttackValue() {
+    assertEquals(50, monster.getAttackValue());
+  }
 
 
 }
