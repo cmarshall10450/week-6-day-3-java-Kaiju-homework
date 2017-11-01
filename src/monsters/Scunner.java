@@ -1,7 +1,5 @@
 package monsters;
 
-import monsters.Kaiju;
-
 public class Scunner extends Kaiju {
 
   public Scunner(String name, int healthValue, int attackValue) {

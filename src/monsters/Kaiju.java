@@ -1,5 +1,7 @@
 package monsters;
 
+import vehicles.Vehicle;
+
 public abstract class Kaiju {
 
   String name;
@@ -13,6 +15,10 @@ public abstract class Kaiju {
   }
 
   abstract String roar();
+
+  public void attack(Vehicle vehicle) {
+    vehicle.reduceHealth(this.attackValue);
+  }
 
   public String getName() {
     return name;
