@@ -1,6 +1,6 @@
 package monsters;
 
-public class Godzilla extends Kaiju {
+public class Godzilla extends Kaiju implements IMovable {
 
   public Godzilla(String name, int healthValue, int attackValue) {
     super(name, healthValue, attackValue);
@@ -9,5 +9,10 @@ public class Godzilla extends Kaiju {
   @Override
   String roar() {
     return "Roar! I am a Godzilla.";
+  }
+
+  @Override
+  public String move() {
+    return "I can move";
   }
 }

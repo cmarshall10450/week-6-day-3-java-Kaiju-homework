@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="677f1d5e-107e-48f9-9173-1348a2011f2d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/monsters/IFlyable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/monsters/IMovable.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/monsters/Godzilla.java" afterPath="$PROJECT_DIR$/src/monsters/Godzilla.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/monsters/Scunner.java" afterPath="$PROJECT_DIR$/src/monsters/Scunner.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/monsters/ScunnerTest.java" afterPath="$PROJECT_DIR$/src/monsters/ScunnerTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/src/monsters/Kaiju.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="333">
-              <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+              <caret line="20" column="3" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
               <folding>
                 <element signature="e#358#359#0" expanded="true" />
                 <element signature="e#406#407#0" expanded="true" />
@@ -43,13 +48,15 @@
       <file leaf-file-name="Scunner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/monsters/Scunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12">
-              <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+            <state relative-caret-position="435">
+              <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
               <folding>
-                <element signature="e#121#122#0" expanded="true" />
-                <element signature="e#168#169#0" expanded="true" />
-                <element signature="e#199#200#0" expanded="true" />
-                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#141#142#0" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
+                <element signature="e#219#220#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,21 +65,43 @@
       <file leaf-file-name="ScunnerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/monsters/ScunnerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="44" column="1" lean-forward="false" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+            <state relative-caret-position="-1000">
+              <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#217#218#0" expanded="true" />
-                <element signature="e#269#270#0" expanded="true" />
-                <element signature="e#311#312#0" expanded="true" />
-                <element signature="e#364#365#0" expanded="true" />
-                <element signature="e#413#414#0" expanded="true" />
-                <element signature="e#466#467#0" expanded="true" />
-                <element signature="e#515#516#0" expanded="true" />
-                <element signature="e#567#568#0" expanded="true" />
-                <element signature="e#609#610#0" expanded="true" />
-                <element signature="e#672#673#0" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
+                <element signature="e#310#311#0" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#464#465#0" expanded="true" />
+                <element signature="e#513#514#0" expanded="true" />
+                <element signature="e#565#566#0" expanded="true" />
+                <element signature="e#607#608#0" expanded="true" />
+                <element signature="e#670#671#0" expanded="true" />
+                <element signature="e#877#878#0" expanded="true" />
+                <element signature="e#927#928#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IFlyable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/monsters/IFlyable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IMovable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/monsters/IMovable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -80,13 +109,15 @@
       <file leaf-file-name="Godzilla.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/monsters/Godzilla.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="539">
+              <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
               <folding>
-                <element signature="e#123#124#0" expanded="true" />
-                <element signature="e#170#171#0" expanded="true" />
-                <element signature="e#201#202#0" expanded="true" />
-                <element signature="e#242#243#0" expanded="true" />
+                <element signature="e#143#144#0" expanded="true" />
+                <element signature="e#190#191#0" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
+                <element signature="e#262#263#0" expanded="true" />
+                <element signature="e#300#301#0" expanded="true" />
+                <element signature="e#329#330#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,8 +190,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -177,13 +214,15 @@
         <option value="$PROJECT_DIR$/src/KaijuTest.java" />
         <option value="$PROJECT_DIR$/src/Kaiju.java" />
         <option value="$PROJECT_DIR$/src/ScunnerTest.java" />
-        <option value="$PROJECT_DIR$/src/monsters/Godzilla.java" />
         <option value="$PROJECT_DIR$/src/vehicles/PersonelTransporter.java" />
         <option value="$PROJECT_DIR$/src/vehicles/Tank.java" />
-        <option value="$PROJECT_DIR$/src/monsters/Scunner.java" />
         <option value="$PROJECT_DIR$/src/vehicles/Vehicle.java" />
         <option value="$PROJECT_DIR$/src/vehicles/TankTest.java" />
         <option value="$PROJECT_DIR$/src/monsters/Kaiju.java" />
+        <option value="$PROJECT_DIR$/src/monsters/IFlyable.java" />
+        <option value="$PROJECT_DIR$/src/monsters/IMovable.java" />
+        <option value="$PROJECT_DIR$/src/monsters/Godzilla.java" />
+        <option value="$PROJECT_DIR$/src/monsters/Scunner.java" />
         <option value="$PROJECT_DIR$/src/monsters/ScunnerTest.java" />
       </list>
     </option>
@@ -720,7 +759,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1509551632241</updated>
-      <workItem from="1509551636495" duration="3417000" />
+      <workItem from="1509551636495" duration="3880000" />
     </task>
     <servers />
   </component>
@@ -746,9 +785,15 @@
     <history-entry file="Unnamed - 2017.11.01 at 16h 53m 09s.xml">
       <configuration name="Unnamed" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Unnamed - 2017.11.01 at 17h 00m 33s.xml">
+      <configuration name="Unnamed" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Unnamed - 2017.11.01 at 17h 01m 20s.xml">
+      <configuration name="Unnamed" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3417000" />
+    <option name="totallyTimeSpent" value="3880000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1173" extended-state="6" />
@@ -800,19 +845,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/monsters/Godzilla.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#123#124#0" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/vehicles/PersonelTransporter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -831,19 +863,6 @@
           <folding>
             <element signature="e#100#101#0" expanded="true" />
             <element signature="e#134#135#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/monsters/Scunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-          <folding>
-            <element signature="e#121#122#0" expanded="true" />
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#199#200#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -879,10 +898,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/monsters/IMovable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/monsters/Kaiju.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
-          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+          <caret line="20" column="3" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
           <folding>
             <element signature="e#358#359#0" expanded="true" />
             <element signature="e#406#407#0" expanded="true" />
@@ -896,22 +923,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/monsters/IFlyable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/monsters/Scunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/monsters/Godzilla.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding>
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/monsters/ScunnerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="44" column="1" lean-forward="false" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+        <state relative-caret-position="-1000">
+          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#927#928#0" expanded="true" />
           </folding>
         </state>
       </provider>
