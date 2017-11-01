@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="677f1d5e-107e-48f9-9173-1348a2011f2d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/monsters/Godzilla.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Kaiju Monsters/monsters/Scunner.class" afterPath="$PROJECT_DIR$/out/production/Kaiju Monsters/monsters/Scunner.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Kaiju Monsters/monsters/ScunnerTest.class" afterPath="$PROJECT_DIR$/out/production/Kaiju Monsters/monsters/ScunnerTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/monsters/Scunner.java" afterPath="$PROJECT_DIR$/src/monsters/Scunner.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/monsters/ScunnerTest.java" afterPath="$PROJECT_DIR$/src/monsters/ScunnerTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -43,13 +46,13 @@
       <file leaf-file-name="Scunner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/monsters/Scunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="372">
+              <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="33" />
               <folding>
                 <element signature="e#145#146#0" expanded="true" />
                 <element signature="e#192#193#0" expanded="true" />
                 <element signature="e#223#224#0" expanded="true" />
-                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#263#264#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,8 +61,8 @@
       <file leaf-file-name="ScunnerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/monsters/ScunnerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="29" column="3" lean-forward="false" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+            <state relative-caret-position="516">
+              <caret line="34" column="3" lean-forward="false" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#195#196#0" expanded="true" />
@@ -70,6 +73,23 @@
                 <element signature="e#444#445#0" expanded="true" />
                 <element signature="e#493#494#0" expanded="true" />
                 <element signature="e#545#546#0" expanded="true" />
+                <element signature="e#587#588#0" expanded="true" />
+                <element signature="e#650#651#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Godzilla.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/monsters/Godzilla.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="419">
+              <caret line="14" column="3" lean-forward="false" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+              <folding>
+                <element signature="e#166#167#0" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#244#245#0" expanded="true" />
+                <element signature="e#285#286#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,6 +121,7 @@
         <option value="$PROJECT_DIR$/src/ScunnerTest.java" />
         <option value="$PROJECT_DIR$/src/monsters/Kaiju.java" />
         <option value="$PROJECT_DIR$/src/monsters/Scunner.java" />
+        <option value="$PROJECT_DIR$/src/monsters/Godzilla.java" />
         <option value="$PROJECT_DIR$/src/monsters/ScunnerTest.java" />
       </list>
     </option>
@@ -633,7 +654,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1509551632241</updated>
-      <workItem from="1509551636495" duration="1381000" />
+      <workItem from="1509551636495" duration="1473000" />
     </task>
     <servers />
   </component>
@@ -644,9 +665,12 @@
     <history-entry file="Unnamed - 2017.11.01 at 16h 17m 21s.xml">
       <configuration name="Unnamed" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Unnamed - 2017.11.01 at 16h 19m 05s.xml">
+      <configuration name="Unnamed" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1381000" />
+    <option name="totallyTimeSpent" value="1473000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1173" extended-state="6" />
@@ -661,7 +685,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32953465" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32953465" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -715,21 +739,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/monsters/Scunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="372">
+          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="33" />
           <folding>
             <element signature="e#145#146#0" expanded="true" />
             <element signature="e#192#193#0" expanded="true" />
             <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/monsters/Godzilla.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="14" column="3" lean-forward="false" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <folding>
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/monsters/ScunnerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="29" column="3" lean-forward="false" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+        <state relative-caret-position="516">
+          <caret line="34" column="3" lean-forward="false" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#195#196#0" expanded="true" />
@@ -740,6 +777,8 @@
             <element signature="e#444#445#0" expanded="true" />
             <element signature="e#493#494#0" expanded="true" />
             <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
           </folding>
         </state>
       </provider>

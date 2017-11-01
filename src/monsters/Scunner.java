@@ -10,6 +10,6 @@ public class Scunner extends Kaiju {
 
   @Override
   String roar() {
-    return "Roar! I am a monsters.Scunner.";
+    return "Roar! I am a Scunner.";
   }
 }

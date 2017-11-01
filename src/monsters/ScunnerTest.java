@@ -29,5 +29,10 @@ public class ScunnerTest {
     assertEquals(50, monster.getAttackValue());
   }
 
+  @Test
+  public void monsterCanRoar() {
+    assertEquals("Roar! I am a Scunner.", monster.roar());
+  }
+
 
 }
