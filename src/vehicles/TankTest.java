@@ -1,5 +1,6 @@
 package vehicles;
 
+import monsters.Godzilla;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -32,6 +33,14 @@ public class TankTest {
     tank.reduceHealth(50);
 
     assertEquals(50, tank.getHealthValue());
+  }
+
+  @Test
+  public void tankCanAttackMonster() {
+    Godzilla godzilla = new Godzilla("Godzilla", 100, 100);
+    tank.attack(godzilla);
+
+    assertEquals(90, godzilla.getHealthValue());
   }
 
 }
